@@ -1,6 +1,8 @@
-# Rapprochement de Virements / Factures — Streamlit App
+# Rapprochement de Virements / Factures
 
-Cette application Streamlit permet de trouver **toutes les combinaisons possibles de montants** issues d'une liste donnée (virements) qui s'approchent d'une somme cible (facture) avec une tolérance paramétrable.
+Cette application **Streamlit** permet de trouver **toutes les combinaisons possibles de montants** issues d'une liste donnée (virements) qui s'approchent d'une somme cible (facture), avec une tolérance paramétrable.
+
+🔗 **Accéder à l'application** : [https://virement-factures.streamlit.app/](https://virement-factures.streamlit.app/)
 
 ---
 
@@ -22,7 +24,7 @@ Cette application Streamlit permet de trouver **toutes les combinaisons possible
    * Entrez la somme cible (ex : `150.00`)
 
 2. **Recherche** :
-   L’algorithme trie la liste, élimine les doublons inutiles et explore toutes les combinaisons possibles (backtracking) pour trouver celles qui s’approchent de la cible avec une tolérance fixée à 0,01 €.
+   L’algorithme trie la liste, élimine les doublons inutiles et explore toutes les combinaisons possibles (**backtracking**) pour trouver celles qui s’approchent de la cible avec une tolérance fixée à 0,01 €.
 
 3. **Résultats** :
    Affichage de toutes les combinaisons trouvées qui respectent la condition.
@@ -98,6 +100,7 @@ Remplacez `/chemin/vers/Combi_VIRT_FACT_GUI.py` par le chemin réel de votre fic
 ```
 
 3. Cliquer sur **Lancer la recherche**
+
 4. Obtenir les combinaisons trouvées, par exemple :
 
 * 100.25 + 50.00 = 150.00 €
